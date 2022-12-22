@@ -1,0 +1,36 @@
+node-thenify-all (1.6.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 17:59:10 +0100
+
+node-thenify-all (1.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #877492)
+
+ -- Preyass Chandran <preyassc@hotmail.com>  Mon, 02 Oct 2017 12:31:53 +0530
